@@ -1,0 +1,129 @@
+nav{
+    background-color:rgb(1, 0, 2);
+     
+
+     
+}
+ul{
+      color: rgb(68, 102, 255);
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    
+}
+span{
+     color: rgb(255, 255, 255);
+     font-family: "Dancing Script", cursive;
+     font-optical-sizing: auto;
+     font-weight: weight;
+     font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(68, 112, 233);
+}
+
+h1{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 30px 0px;
+}
+img {
+    width: 130px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;   
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15%;
+    height: 70px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.scroll{
+    background-color: rgb(103, 171, 231);
+    box-shadow: .1rem .2rem .3rem #f00c0c;
+}
+.scroll img{
+    filter: invert(15%);
+}           
+.scroll h1{
+    color: #8cb5f3;
+}
+.carrito{
+    filter: invert(100%);
+    width: 45px;
+    height: auto;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 43, 99, 0.75);
+    background-color:rgb(2, 31, 126);
+    border-radius: 20px;
+}
+.contenedor>div:hover{
+    background-color:       #00000059;
+}
+
+.informacion{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+.informacion .precio {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion .precio span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion button{
+    background-color: #000000;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion button:hover{
+    background-color: #003686;
+}
+button{
+    color: #000000;
+}
+p{
+    text-align: center;
+}
+body{
+    background-image: url("backgrond.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    background-attachment: fixed;
+}
